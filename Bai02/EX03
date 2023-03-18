@@ -1,0 +1,29 @@
+
+
+body{
+  font:25px;
+  padding:-2px 10px 10px -10px;
+  background-color: lightblue;
+  margin: -20px -15px -20px 5px;
+}
+
+
+/* Header **/
+header{
+   background:lightgreen;
+   min-height: 10px;
+   padding-top: 50px 100px 5px 10px;
+   border-bottom:3px solid yellow;
+   color:red ;
+}
+
+footer{
+  background-color: purple;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  
+}
+
