@@ -1,0 +1,208 @@
+body{
+  font:25px;
+padding:-2px 10px 10px -10px;
+background-color: lightwhite;
+margin: -20px -15px -20px 5px;
+font-family:arial; /* chỉnh kiểu chữ */
+}
+
+/* Global */
+.container{
+margin: auto;
+width: 80%;
+color: black;
+overflow: hidden;
+
+}
+
+ul{
+
+}
+
+.button_1{
+padding-left:20px;
+padding-right:20px;
+background-color:salmon;
+}
+
+.dark{
+
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+
+/* Header **/
+header{
+ background:darkslategray;
+ min-height: 70px;
+ padding: 25px 70px 5px 14px;
+ border-bottom:3px solid yellow;
+ color: ogrange ;
+}
+
+header a{
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+margin-left:50px;
+color: #ffffff;
+}
+
+header li{
+ display: inline;
+padding: 0px 20px 0px 20px;
+float: left;
+}
+
+header #branding{
+float:left;
+}
+
+header #branding h1{
+margin: 0;
+color: azure;
+}
+
+header nav{
+float:right;
+ margin-top: 10px;
+ text-align: uppercase;
+}
+
+header .highlight, header .current a{
+color: red;
+font-weight: bold;
+}
+
+header a:hover{
+color: red;
+font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+background-image: url("https://vinhthevu.com/images/showcase.jpg");
+padding: 50px;
+}
+
+#showcase h1{
+margin-top: 100px;
+font-size: 40px;
+color: white;
+margin-bottom: 10px;
+}
+
+#showcase p{
+font-size: 20px;
+color: white;
+
+}
+
+/* Newsletter */
+#newsletter{
+background-color: darkslategray;
+padding:20px;
+}
+
+#newsletter h1{
+color: aliceblue;
+float: left;
+}
+
+#newsletter form {
+float: right;
+padding-top: 20px;
+
+}
+
+#newsletter input[type="email"]{
+color: red;
+}
+
+/* Boxes */
+#boxes{
+margin-top: 20px;
+
+
+}
+
+#boxes .box{
+float: left;
+text-align: center;
+width: 30%;
+padding: 10px;
+}
+
+#boxes .box img{
+width: 90px;
+}
+#services li{
+list-style: none;
+border: #cccc solid 1px;
+padding: 20px;
+margin: 5px;
+background-color:#D8BFD8;
+width: 800px;
+}
+
+aside#sidebar{
+  float:right;
+  width:25%;
+  margin-top:50px;
+  
+
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:10px;
+  
+}
+article#main-col{
+  float:left;
+  width:65%;
+
+}
+@media(max-width: 600px){
+
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:25px;
+    text-align: center;
+    background-color: rgb(46, 2, 59);
+  }
+  #newsletter{
+    background-color: rgb(46, 2, 59);
+  }
+  footer{
+    color: chartreuse;
+  }
+
+}
+
+
+footer{
+background-color: purple;
+text-align: center;
+padding-top: 20px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-left: 15px;
+}
+
